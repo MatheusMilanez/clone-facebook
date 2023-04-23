@@ -6,22 +6,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Tela de login do facebook">
     <meta name="keywords" content="tela, login, tela de login,facebook">
-    <title>Login | facebook</title>
+    <title>Cadastrar | facebook</title>
     <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
     <section class="main-login">
         <h1 class="titulo-principal">facebook</h1>
-        <div class="login">
-            <h6 class="titulo-secundario">Entrar no Facebook</h6>
-            <input type="email" class="input-email-login" placeholder="Email ou Telefone">
-            <input type="password" class="input-password-login"placeholder="Senha">
-            <button type="submit" class="bnt-submit-login">Entrar</button>
-            <div class="link-esqueceu-cadastrar">
-                <a href="#" class="link-login">Esqueceu a senha?</a>
-                <a href="cadastrar.html" class="link-login">Cadastre-se no facebook</a>
+        <div class="Cadastro">
+            <h6 class="titulo-secundario-cadastro">Criar uma nova conta</h6>
+            <p class="texto-cadastro">É rápido e fácil</p>
+
+            <div class="input-nome-sobrenome">
+                <input type="text" class="NOME-SOBRENOME" placeholder="Nome" required>
+                <input type="text" class="NOME-SOBRENOME" placeholder="Sobrenome"required>
             </div>
+
+            <div class="input-email-senha">
+                <input type="text" class="email-senha" placeholder="Celular ou email"required>
+                <input type="text" class="email-senha" placeholder="Nova senha"required>
+            </div>
+
+            <div class="Data-nascimento">
+                <p class="texto">Data de nascimentos <span class="simbolo-de-interrogacao">&#63;</span></p>
+                <input type="date" class="date" id="data-1">
+            </div>
+
+            <div class="genero">
+                <p class="texto">Gênero<span class="simbolo-de-interrogacao">&#63;</span></p>
+                <div class="container-opcoes-genero">
+                    <div class="genero-opcoes">
+                        <label for="genero-opcoes-1" >Feminino</label>
+                        <input type="radio" name="opcao" id="genero-opcoes-1"  >
+                    </div>
+                    <div class="genero-opcoes">
+                        <label for="genero-opcoes-1" >Masculino</label>
+                        <input type="radio" name="opcao" id="genero-opcoes-2"  >
+                    </div>
+
+                    <div class="genero-opcoes">
+                        <label for="genero-opcoes-1" >Personalizado</label>
+                        <input type="radio" name="opcao" id="genero-opcoes-3"  >
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="texto-fim-cadastro">
+                <p class="texto-cadastro">As pessoas que usam nosso serviço podem ter enviado suas informações de contato para o Facebook. <span class="texto-span"> Saiba mais</span></p>
+                <p class="texto-cadastro">Ao clicar em Cadastre-se, você concorda com nossos <span class="texto-span"> Termos, Política de Privacidade e Política de Cookies.</span> Você poderá receber notificações por SMS e cancelar isso quando quiser.</p>    
+            </div>
+
+            <button class="bnt-cadastro">Cadastre-se</button>
+
+            <a href="index.html" class="link-cadastro">Já tem uma conta?</a>
         </div>
+
+
+
+
     </section>
     <section class="footer">
         <div class="container-div-footer">

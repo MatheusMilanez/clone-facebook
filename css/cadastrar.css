@@ -1,0 +1,227 @@
+.main-login{
+    padding: 0 0 150px 0;
+}
+
+.Cadastro{
+    background-color: var(--branco);
+    width: 450px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px 2px rgba(0.2, 0.2, 0.7, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo-secundario-cadastro{
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    margin: 30px 0 0 0;
+}
+
+.texto-cadastro{
+    color: #8a8a8a;
+    margin: 10px 0;
+}
+
+.input-nome-sobrenome{
+    display: flex;
+    border-top: 1px solid #8a8a8a;
+}
+
+.NOME-SOBRENOME{
+    width: 50%;
+    height: 35px;
+    margin: 10px 10px;
+    border-radius: 5px;
+    border: 1.5px solid #8a8a8a;
+}
+
+.input-email-senha{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.email-senha{
+    width: 85%;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid #8a8a8a;
+    margin: 5px 0;
+
+}
+
+.texto{
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 5px 0;
+    cursor: pointer;
+}
+
+.Data-nascimento{
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+.date{
+    width: 100%;
+    height: 35px;
+    text-align: center;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1.5px solid #8a8a8a;
+}
+
+
+.genero{
+    width: 85%;
+    margin: 0 50px;
+}
+
+.container-opcoes-genero{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.genero-opcoes{
+    margin-top: 5px;
+    padding: 2px 3px;
+    height: 25px;
+    border: 1px solid #8a8a8a;
+    border-radius: 5px;
+}
+
+.texto-fim-cadastro{
+    width: 85%;
+}
+
+.texto-cadastro{
+    font-size: 12px;
+}
+
+.texto-span{
+    color: #1877f2;
+    cursor: pointer;
+}
+
+.texto-span:hover{
+    text-decoration: underline;
+}
+
+.bnt-cadastro{
+    direction: ltr;
+    margin: 0;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    min-width: 194px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold!important;
+    letter-spacing: normal;
+    text-rendering: optimizelegibility;
+    line-height: 126%;
+    background: none;
+    background-color: #00a400;
+    border: none;
+    border-radius: 6px;
+    box-shadow: none;
+    color: #fff;
+    font-size: 18px;
+    height: 36px;
+    overflow: hidden;
+    padding: 0 32px;
+    text-shadow: none;
+    font-family: SFProDisplay-Bold, Helvetica, Arial, sans-serif!important;
+}
+
+.link-cadastro{
+    color: #1877f2;
+    margin: 5px 0 20px 0;
+    text-decoration: none;
+}
+
+.link-cadastro:hover{
+    text-decoration: underline;
+}
+/*Data de nascimento*/
+.simbolo-de-interrogacao{
+    background-color: #8a8a8a;
+    color: var(--branco);
+    border-radius: 20px;
+    padding: 0.8px 6px;
+    font-size: 10px;
+}
+/*FIM-Data de nascimento*/
+
+
+/*responsividade tela de cadastro*/
+
+@media screen and (max-width:600px) {
+
+    
+    .Cadastro{
+        width: 300px;
+    }
+    
+    .titulo-secundario-cadastro{
+        font-size: 20px;
+    }
+    
+    
+    .NOME-SOBRENOME{
+        width: 115px;
+    }
+    
+    .texto{
+        font-size: 12px;
+    }
+    
+    .genero{
+        width: 85%;
+        margin: 0 50px;
+    }
+    
+    .container-opcoes-genero{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .genero-opcoes{
+        font-size: 10px;
+        height: 20px;
+    }
+    
+    
+    .texto-cadastro{
+        font-size: 9px;
+    }
+    
+    
+    .texto-span:hover{
+        text-decoration: underline;
+    }
+    
+    .bnt-cadastro{
+        min-width: 160px;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 12px;
+        height: 30px;
+    }
+    
+    .link-cadastro{
+        font-size: 12px;
+        margin: 5px 0 30px 0;
+        text-decoration: none;
+    }
+    
+}
