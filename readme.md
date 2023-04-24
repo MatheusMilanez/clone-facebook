@@ -12,17 +12,18 @@
 
 <p>Tela de Login<p>
 
-    ![alt text](img/login.png)
+![alt text](img/login.png)
 
 <p>Tela de Cadastro<p>
 
-    ![alt text](img/cadastro.png)
+![alt text](img/cadastro.png)
 
 <p>Tela de Recuperar senha<p>
 
-     ![alt text](img/recuperarSenha.png)
+![alt text](img/recuperarSenha.png)
 
 ### Link da Vercel:
 
-<p>Link aqui</p>
+<p>https://clone-facebook-ruby.vercel.app/</p>
+<p>OBS: O navegador vai identificar como site fraudulento, pois é uma proteção do navegador. Para Acessar o link da vercel desative a proteção do navegador!</p>
 
