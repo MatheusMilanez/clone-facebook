@@ -1,0 +1,239 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom:3px solid rgb(195, 195, 195);
+    height: 60px;
+}
+
+.titulo-principal-recupera-senha{
+    display: flex;
+    color: var(--azul-padrao);
+    font-weight: bold;
+    font-size: 30px;
+    align-items: center;
+    margin-left: 12px;
+}
+
+.input-header{
+    display: flex;
+    align-items: center;
+}
+
+.conteinar-input{
+    width: 190px;
+    height: 40px;
+    border-radius: 8px;
+    border: 1px solid #cfcccc;
+    margin-right: 10px;
+    
+}
+.conteinar-input::placeholder{
+    font-size: 16px;
+}
+
+
+.bnt-header{
+    background-color: var(--azul-padrao);
+    color: var(--branco);
+    font-size: 16px;
+    font-weight: bold;
+    width: 110px;
+    height: 40px;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+    margin: 0 15px;
+}
+
+.bnt-header:hover{
+    background-color: #0a65dd;
+}
+
+.link-header{
+    text-decoration: none;
+    color: var(--azul-padrao);
+    margin-right: 12px;
+}
+
+.link-header:hover{
+    text-decoration: underline;
+}
+
+.main-recuperaSenha{
+    width: 100%;
+    background-color: var(--cinza-claro);
+    display: flex;
+    justify-content: center;
+}
+
+.form{
+    width: 500px;
+    height: 280px;
+    background-color: var(--branco);
+    border-radius: 10px;
+    margin: 70px 0;
+}
+
+.form-titulo{
+    font-size: 24px;
+    font-weight: bold;
+    color: #162643;
+    margin: 20px 20px;
+}
+
+.container-input-texto{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-texto{
+    font-size: 18px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px 0;
+    padding: 20px 20px 10px 20px;
+    border-top: 1px solid #cfcccc;
+
+}
+
+.form-input{
+    margin: 5px 20px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #cfcccc;
+}
+
+.form-bnt-cancelar-procurar{
+    border-top: 1px solid #cfcccc;
+    margin: 10px 0;
+    display: flex;
+    justify-content: end;
+    padding: 10px 20px;
+
+}
+
+.bnt-cancelar{
+    background-color:#f0f2f5;
+    width: 110px;
+    height: 40px;
+    color: #162643;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;   
+    margin: 0 15px; 
+}
+
+.bnt-procurar{
+    background-color: var(--azul-padrao);
+    width: 110px;
+    height: 40px;
+    color: var(--branco);
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+/*Reponsividade tela de recuperar senha!*/
+
+@media screen and (max-width:1020px) {
+    
+    .titulo-principal-recupera-senha{
+        font-size: 26px;
+    }
+    
+    
+    .conteinar-input{
+        width: 130px;
+        height: 40px;
+    }
+    .conteinar-input::placeholder{
+        font-size: 14px;
+    }
+    
+    
+    .bnt-header{
+        font-size: 14px;
+        width: 100px;
+    }
+    
+       
+}
+
+@media screen and (max-width:720px) {
+    .header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 250px;
+    }
+    
+    
+    .input-header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .conteinar-input{
+        width: 190px;
+        height: 40px;
+        margin-right: 0;
+        margin: 5px 0;
+        
+    }
+    .conteinar-input::placeholder{
+        font-size: 16px;
+    }
+    
+    
+    .bnt-header{
+        margin: 10px 15px;
+    }
+    
+    .bnt-header:hover{
+        background-color: #0a65dd;
+    }
+    
+    .link-header{
+        text-decoration: none;
+        color: var(--azul-padrao);
+        margin-right: 0;
+    }
+    
+
+    .main-recuperaSenha{
+        width: 100%;
+        background-color: var(--cinza-claro);
+        display: flex;
+        justify-content: center;
+    }
+    
+    .form{
+        width: 350px;
+        height: 270px;
+    }
+    
+    .form-titulo{
+        font-size: 20px;
+    }
+    
+    
+    .form-texto{
+        font-size: 16px;
+        display: flex;
+    
+    }
+    
+    .form-input{
+        height: 40px;
+
+    }
+    
+
+}
