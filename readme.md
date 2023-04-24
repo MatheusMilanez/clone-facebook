@@ -8,7 +8,7 @@
 <p>Relembrar alguns codigos</p>
 <p>Praticar responsividade</p>
 
-### Imagem do Projeto!
+### Imagens do Projeto!
 
 <p>Tela de Login<p>
 
